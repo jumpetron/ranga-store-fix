@@ -22,7 +22,7 @@ const showProducts = (products) => {
       <div>
     <img class="product-image" src=${image}></img>
       </div>
-      <h3>${product.title}</h3>
+      <h3>${product.title.slice(0, 24)}</h3>
       <p>Category: ${product.category}</p>
       <p>Rating: ${product.rating.rate}</p>
       <p>Reviews: ${product.rating.count}</p>
